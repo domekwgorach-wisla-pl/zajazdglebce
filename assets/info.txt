@@ -1,0 +1,19 @@
+github:
+u: domekwgorach-wisla-pl
+p: hK2Wtb6nujMlV77J
+
+netlify:
+u: dwg-git@aleksandra-wisla.pl
+p: m?z7$47kQxegD*C=
+
+poczta na aleksandra-wisla.pl (troszkę słaby zabieg, ale nic innego nie mogłem teraz wymyślić)
+u: dwg-git@aleksandra-wisla.pl
+p: h5lE(-du2-Q!Eh7L
+url: https://poczta.cyberfolks.pl/
+
+
+
+zasada działania
+- pobieramy repo z github
+- robimy zmiany -> puszujemy do branczy main
+- w teorii powinno się zbudować automatycznie, ale moze być potrzebne ręczne odpalenie na netlify
