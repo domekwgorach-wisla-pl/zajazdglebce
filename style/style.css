@@ -1,11 +1,19 @@
-body {
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cover {
   background-color: beige;
   background-image: url("/assets/background-zajazd-glebce.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
-.center {
+.cover__center {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -15,4 +23,33 @@ body {
   padding: 10px;
   border: 3px solid white;
   border-radius: 5px;
+}
+
+.footer {
+  max-width: 335px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__image {
+  max-width: 670px;
+  width: 100%;
+  background-image: url('/assets/pfr-kwadrat.jpeg');
+  padding-bottom: 90%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    max-width: 895px;
+  }
+
+  .footer__image {
+    max-width: 895px;
+    width: 100%;
+    background-image: url('/assets/pfr-prostokont.jpeg');
+    padding-bottom: 15%;
+    background-size: contain;
+  }
 }
